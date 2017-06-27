@@ -5,10 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean": "bsb -clean-world",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "bsb -make-world -w",
-    "build": "webpack -w",
-    "clean": "bsb -clean-world"
+    "build": "bsb -make-world && webpack"
   },
   "keywords": [],
   "author": "",

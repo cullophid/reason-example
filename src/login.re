@@ -16,7 +16,7 @@ let render (state:Data.model) dispatch => {
       padding [
         card [
           card_block [
-            card_title "Login",
+            card_title "Welcome",
             form onSubmit::(submit) [
               formGroup [
                 label "Email",
